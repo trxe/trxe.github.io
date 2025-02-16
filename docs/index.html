@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="eye.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <title>Pei Xian Wong</title>
+  <script type="module" crossorigin src="/assets/index.8fed3ff7.js"></script>
+  <link rel="stylesheet" href="/assets/index.4a936216.css">
+</head>
+
+<body>
+  <div id="landing-text">
+    <div class="title" id="intro-title">Pei Xian Wong</div>
+  </div>
+  <div id="sandbox" style="height: 0%; opacity: 0;">
+    <div class="editor" id="shader-editor" contenteditable="true" spellcheck="false">
+      <div>function example() {</div>
+      <div> return 42;</div>
+      <div>}</div>
+    </div>
+  </div>
+  <div id="projects" style="height: 0%; opacity: 0;">
+    <div class="project-group">
+      <div class="project-header">
+        <img class="project-header logo" src="/assets/capsized-logo-notext.1c7ce231.svg" alt="cap-sized.com" />
+        <h1><a href="https://cap-sized.com" target="_blank">CapSized</a></h1>
+      </div>
+      <div class="tags">
+        <span class="level-1">SvelteKit (Typescript)</span>
+        <span class="level-2">MongoDB</span>
+        <span class="level-3">Python</span>
+      </div>
+      <div class="description">
+        <ul>
+          <li>
+            One-stop database with modern UI tracking the state of the NHL (National Hockey League) for the 2024-2025
+            season.
+          </li>
+          <li class="less-impt">
+            Includes trades, contract signings and other transactions.
+          </li>
+          <li class="less-impt">
+            Built on a NoSQL database to allow for potential data expansions (to different leagues).
+          </li>
+          <li class="less-impt">
+            Started in June 2024 after CapFriendly went dark.
+          </li>
+          <li class="less-impt">
+            Plans in place to expand to provide customizable data visualizations and live game monitoring.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="project-group">
+      <div class="project-header">
+        <img class="project-header logo" src="/assets/dmrf-compare-abm.d29efaec.gif"
+          style="padding-top: 1em; padding-bottom: 1em;" alt="cap-sized.com" />
+        <h1><a href="https://github.com/trxe/SyNeRFgine" target="_blank">SyNeRFgine</a></h1>
+      </div>
+      <div class="tags">
+        <span class="level-1">C++</span>
+        <span class="level-2">CUDA</span>
+        <span class="level-3">Python</span>
+      </div>
+      <div class="description">
+        <ul>
+          <li>
+            Integrated traditional physically-defined rigid body models in volumetrically rendered NeRFs.
+          </li>
+          <li class="less-impt">
+            Enhanced the existing <b>instant-ngp</b> engine from NVIDIA to support the casting of realistic shadows
+            between the two types of environments.
+          </li>
+          <li class="less-impt">
+            Submitted as Bachelors (Honors) thesis.
+          </li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="project-group">
+      <h1>Skills</h1>
+      <div class="tags level-1">
+        <span>C++</span>
+        <span>Python</span>
+        <span>Rust</span>
+        <span>Javascript/TypeScript</span>
+        <span>C#</span>
+        <span>C</span>
+      </div>
+      <div class="tags level-2">
+        <span>MongoDB</span>
+        <span>PostgresSQL</span>
+        <span>kdb (q)</span>
+        <span>OpenTelemetry</span>
+        <span>Prometheus</span>
+        <span>Grafana</span>
+      </div>
+      <div class="tags level-3">
+        <span>OpenGL</span>
+        <span>CUDA</span>
+        <span>Vulkan</span>
+        <span>WebGL</span>
+        <span>GLSL</span>
+        <span>HLSL</span>
+      </div>
+    </div>
+  </div>
+  <div id="contact" style="height: 0%; opacity: 0;">
+    <div class="contact-card">
+      phone: +65 8902 3950
+      <br />
+      <a class="contact-link" target="_blank" href="mailto:peixianwong@gmail.com">peixianwong@gmail.com</a>
+      <br />
+      <a class="contact-link" target="_blank" href="https://github.com/trxe">github.com/trxe</a>
+      <br />
+      <a class="contact-link" target="_blank" href="PeiXianWong_Resume_latest.pdf">my resume</a>
+    </div>
+  </div>
+  <div id="works" style="height: 0%; opacity: 0;">
+    <div class="work-page" id="works-intro">
+      <section id="portfolio-intro">
+        <h2>about me.</h2>
+        <p>
+          Initially into high performance parallel programming, but lately have been doing more projects involving data
+          engineering instead.
+        </p>
+        <p>
+          Other than my current projects, I've also made <b>search engines</b>, <b>ML-powered rendering engines</b>,
+          Unity <b>games</b>, <b>web apps</b>, and I'm into shaders, GPU programming and hockey.
+        </p>
+        <button id="view-portfolio">my (other) projects</button>
+      </section>
+      <section id="experience-intro">
+        <h2>my experiences.</h2>
+        <p>
+          Across several internships and my current position I've built many services, but I'm usually involved in
+          building pipelines to provide business data or metrics.
+        </p>
+        <p>
+          Currently employed at <a href="https://www.squarepoint-capital.com/" target="_blank">Squarepoint</a>.
+        </p>
+        <button id="view-titles">my work</button>
+      </section>
+    </div>
+    <div class="work-page" id="bodyx">
+      <div class="experience-detail">
+        <div class="experience-title">
+          <h2>BODYX Productions</h2>
+        </div>
+        <div class="tags">
+          <span>Typescript</span> <span>MERN</span> <span>sockets.io</span> <span>NextJS</span> <span>NGINX</span>
+        </div>
+        <p>I built a platform for <a href="https://www.facebook.com/BODYXProductions">BODYX Productions</a> facilitating
+          live-streamed real-time interactive theatre experience. </p>
+        <ul>
+          <li>Features real-time updates in chat and room control, made possible via Websockets</li>
+          <li>Supports many streaming services (specifically tested with YouTube)</li>
+          <li>Integration with Eventbrite ticketing platorm</li>
+        </ul>
+      </div>
+      <div class="gallery">
+        <div class="gallery-slide">
+          <img src="/assets/bodyx_dashboard.b4fc2b3a.png" />
+        </div>
+        <div class="gallery-slide">
+          <img src="/assets/bodyx_theatre.18c4a8ac.png" />
+        </div>
+        <button class="gallery-prev">&#10094;</button>
+        <button class="gallery-next">&#10095;</button>
+      </div>
+    </div>
+    <div class="work-page" id="doodles-diary">
+      <div class="experience-detail">
+        <div class="experience-title">
+          <h2>Doodle's Diary</h2>
+          <a href="https://teamdoodles.itch.io/doodles-diary-2" target=”_blank”>Link</a>
+        </div>
+        <div class="tags">
+          <span>Unity</span> <span>C#</span> <span>Photoshop</span> <span>GLSL</span> <span>Blender</span>
+        </div>
+        <p>Doodle's Diary is independently developed casual tower-defense game by a team of 6.</p>
+        <ul>
+          <li>Implemented unique hand-drawn visual effects with shaders and post-processing pipeline</li>
+          <li>Improved scalability of previous enemy random path generation algorithm alongside player's in-game
+            progression</li>
+          <li>Refactored Tower data containers and building system to leverage ScriptableObjects</li>
+          <li>Implemented player projects system</li>
+        </ul>
+      </div>
+      <div class="gallery">
+        <div class="gallery-slide">
+          <img src="/assets/doodles_diary.0b3eae35.png" />
+        </div>
+        <div class="gallery-slide">
+          <img src="/assets/doodles_clown.0137148a.jpg" />
+        </div>
+        <div class="gallery-slide">
+          <img src="/assets/doodles_ghost.01543c83.jpg" />
+        </div>
+        <div class="gallery-slide">
+          <img src="./assets/doodles_projects.jpg" />
+        </div>
+        <div class="gallery-slide">
+          <img src="/assets/doodles_ui.b171c3c8.jpg" />
+        </div>
+        <button class="gallery-prev">&#10094;</button>
+        <button class="gallery-next">&#10095;</button>
+      </div>
+    </div>
+    <div class="work-page" id="sqpt">
+      <div class="experience-detail">
+        <div class="experience-title">
+          <h2>Software Developer</h2>
+        </div>
+        <div class="tags">
+          <span>Python</span>
+          <span>C++</span>
+          <span>kdb (q)</span>
+        </div>
+      </div>
+      <div class="temp-job-desc">
+        <h3>since Jan 2024</h3>
+        Initially as an intern, and as a full time employee since Sep 2024.
+        <br /><br />
+        <ul>
+          <li>Built metrics/tracing instrumentation module into department-wide</li>
+          <li>Provide means for reflecting metrics/trace information onto visualization dashboards (e.g. Grafana).</li>
+          <li>Working on legacy and upcoming pipelines to maintain and accurate state of {"word"} for the world</li>
+        </ul>
+      </div>
+    </div>
+    <div class="work-page" id="ubisoft">
+      <div class="experience-detail">
+        <div class="experience-title">
+          <h2>Technical Art Intern</h2>
+        </div>
+        <div class="tags">
+          <span>C# (UPF)</span>
+          <span>C++</span>
+          <span>Ubisoft Anvil (engine)</span>
+        </div>
+      </div>
+      <div class="temp-job-desc">
+        <h3>Aug 2023 to Nov 2023</h3>
+        Assisted in the pre-alpha stage of development of the game "Assassin's Creed: Shadows".
+        <br /><br />
+        <ul>
+          <li>Built in-engine tools with Windows WPF UI (C#, XAML) for speeding up artists’ workflow.</li>
+          <li>Supported asset management, validation and documentation with core development team.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="work-page" id="easai">
+      <div class="experience-detail">
+        <div class="experience-title">
+          <h2>Machine Learning Intern, DevOps/MLOps</h2>
+        </div>
+        <div class="tags">
+          <span>Rust</span> <span>axum</span> <span>criterion</span> <span>Python</span> <span>locust.io</span>
+          <span>PostgreSQL</span>
+          <span>SBERT</span>
+        </div>
+      </div>
+      <div class="temp-job-desc">
+        <h3>May 2023 to Aug 2023</h3>
+        Designed and built an search engine capable based semantic similarity of queries against large document
+        collections
+        ingested from companies’ existing internal databases.
+        <br /><br />
+        <ul>
+          <li>Core design and development of multithreaded server architecture for parallel model execution and
+            inference.</li>
+          <li>Unit/integration testing, stress/load testing, benchmarking for performance and cross-domain accuracy.
+          </li>
+          <li>Custom implementations of lexical search algorithms in SQL for ranking indexed documents.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="work-page" id="google">
+      <div class="experience-detail">
+        <div class="experience-title">
+          <h2>STEP Intern @Google</h2>
+        </div>
+        <div class="tags">
+          <span>Python</span> <span>gRPC</span> <span>Google3 Suite</span>
+        </div>
+      </div>
+      <div class="temp-job-desc">
+        <h3>May 2022 to Aug 2022</h3>
+        Designed and implemented in Python a bug diagnosis gRPC service for the Google Pixel Modem Wireless team, which
+        parses Android Debug Bridge bug reports and modem logs to identify keyword indicators of common bugs.
+        <br /><br />
+        <ul>
+          <li>Design and documentation of gRPC service</li>
+          <li>Writing unit tests and integration tests</li>
+          <li>Deployment and integration with existing Bugbot framework</li>
+          <li>Over 40 engineers benefit from the extensible ruleset framework</li>
+        </ul>
+      </div>
+    </div>
+    <div class="work-page" id="theatre">
+      <div class="experience-detail">
+        <div class="experience-title">
+          <h2>Live production crew member</h2>
+        </div>
+        <div class="tags">
+          <span>Stage Management</span> <span>Lighting Programmer</span> <span>Scenic Designer</span>
+        </div>
+        <p>Have been involved in various varsity and local theatre/concert productions since 2020.</p>
+        <ul>
+          <li>GrandMA2, dot2</li>
+          <li>ETC Colorsource 40</li>
+          <li>Resolume Arena</li>
+          <li>QLab</li>
+        </ul>
+      </div>
+      <div class="gallery">
+        <div class="gallery-slide">
+          <img src="/assets/lx_fruit_basket.8564c07d.jpg" alt="Fruits Basket Sep 2022" />
+        </div>
+        <div class="gallery-slide">
+          <img src="/assets/lx_theatre_lab.1834ce6d.jpeg" alt="Fruits Basket Sep 2022" />
+        </div>
+        <div class="gallery-slide">
+          <img src="/assets/set_bibtl2023.82d29257.jpeg" alt="Fruits Basket Sep 2022" />
+        </div>
+        <div class="gallery-slide">
+          <video loop autoplay>
+            <source src="/assets/lx_umca.2fc135d1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <button class="gallery-prev">&#10094;</button>
+        <button class="gallery-next">&#10095;</button>
+      </div>
+    </div>
+    <div class="work-page" id="ta-nus">
+      <div class="experience-detail">
+        <div class="experience-title">
+          <h2>Teaching Assistant @NUS</h2>
+        </div>
+        <div class="tags">
+          <span>C/C++</span> <span>OpenGL</span> <span>Java</span>
+        </div>
+      </div>
+      <ul class="temp-job-desc">
+        <li>CS4247 Graphics Rendering Techniques (Y3S2)</li>
+        <li>CS3241 Computer Graphics (Y3S1, Y4S1) <a href="https://trxe.github.io/cs3241-notes/"
+            target="_blank">Slides</a></li>
+        <li>CS2040S Data Structures and Algorithms (Y2S2)</li>
+      </ul>
+    </div>
+  </div>
+  <nav id="main-menu">
+    <a class="page-link" id="link-projects">projects</a>
+    <a class="page-link" id="link-contact">links and contact</a>
+    <a class="page-link" id="link-works">experience</a>
+    <a class="page-link" id="link-sandbox">shader sandbox</a>
+  </nav>
+  <canvas id="bg"></canvas>
+  
+</body>
+
+</html>
