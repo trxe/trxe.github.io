@@ -1,0 +1,35 @@
+{
+  "name": "trxe-site",
+  "version": "1.0.0",
+  "description": "\"how did i become a data-dev\"",
+  "main": "main.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trxe/personal-site.git"
+  },
+  "devDependencies": {
+    "@types/dat.gui": "^0.7.7",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "@types/three": "^0.140.0",
+    "dat.gui": "^0.7.9",
+    "gsap": "file:gsap-bonus.tgz",
+    "three": "^0.140.2"
+  },
+  "keywords": [
+    "personal-site"
+  ],
+  "author": "PX Wong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trxe/personal-site/issues"
+  },
+  "homepage": "https://trxe.github.io"
+}
